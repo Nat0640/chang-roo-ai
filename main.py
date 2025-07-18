@@ -77,3 +77,6 @@ async def handle_vapi_call(payload: VapiPayload):
 @app.get("/")
 def read_root():
     return {"message": "ช่างรู้ AI Assistant is ready to help!"}
+
+# .\.venv\Scripts\activate
+# uvicorn main:app --reload
